@@ -1,0 +1,303 @@
+[
+  {
+    "id": 0,
+    "text": "Recuperas la conciencia en una habitación repleta de artilugios y aparatos de alguna época futura ajena a la tuya",
+    "options": {
+      "option": [
+        {
+          "question": "Este lugar es horrible salido de una pesadilla…",
+          "nextId": 1
+        },
+        {
+          "question": "¿En dónde estoy?, ¡que lugar mas extraño iré a investigar!",
+          "nextId": 2
+        }
+      ]
+    },
+    "position": {
+      "x": 190,
+      "y": 6
+    }
+  },
+  {
+    "id": 1,
+    "text": "Estas muy asustado y confundido con lo que esta sucediendo, sudas mucho y tu presión arterial aumenta al igual que tu ritmo cardíaco. Tienes que hacer algo, ya",
+    "options": {
+      "option": [
+        {
+          "question": "No lo soporto, este lugar debe ser el mismo infierno… Y, las voces… ¡No lo soporto!...",
+          "nextId": 3
+        },
+        {
+          "question": "Tiene que haber un modo de escapar de este sitio… y lo encontraré",
+          "nextId": 4
+        }
+      ]
+    },
+    "position": {
+      "x": 74,
+      "y": 59
+    }
+  },
+  {
+    "id": 2,
+    "text": "Das con un pasillo apenas iluminado por un par de incandescentes color verde mohoso. El mismo esta flanqueado por dos paredes llenas de puertas. Por el pasillo se escuchan toda clase de ruidos extraños indescriptibles",
+    "options": {
+      "option": [
+        {
+          "question": "Esta puerta tiene algo escrito… creo que lo entiendo...",
+          "nextId": 5
+        },
+        {
+          "question": "Me pregunto qué será  toda esta tecnología y equipo avanzado...",
+          "nextId": 6
+        },
+        {
+          "question": "La puerta del fondo debe dar al exterior, ¡Estoy seguro...!",
+          "nextId": 7
+        }
+      ]
+    },
+    "position": {
+      "x": 287,
+      "y": 53
+    }
+  },
+  {
+    "id": 3,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Eres sobrepasado por el miedo a tal grado que sales corriendo y chocas con una ventana, la cual se rompe y caes al fondo del abismo del paisaje  futurista"
+      }
+    },
+    "position": {
+      "x": 33,
+      "y": 144
+    }
+  },
+  {
+    "id": 4,
+    "text": "Sales corriendo pero sin perder la cordura, buscas una salida de aquel sitio futurista y decadente",
+    "options": {
+      "option": [
+        {
+          "question": "Me siento muy cansado, quizá sea mejor volver a donde empezó esta pesadilla ",
+          "nextId": 0
+        },
+        {
+          "question": "¿Qué clase de sitio es este?",
+          "nextId": 1
+        },
+        {
+          "question": "Echaré un vistazo por ese pasillo, seguro hay una salida",
+          "nextId": 2
+        },
+        {
+          "question": "Vaya, esto parece una de esas máquinas tele transportadoras que salen en películas y videojuegos",
+          "nextId": 14
+        }
+      ]
+    },
+    "position": {
+      "x": 134,
+      "y": 142
+    }
+  },
+  {
+    "id": 5,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Te paras por un momento ya que los símbolos de una de las puertas se asemejan a un lenguaje el cual te es familiar. Sin previo aviso, abre la puerta un sujeto con mascara de gas y con equipo electrónico implantado en el cuerpo, y en un solo movimiento te toma del cuello y te mete en un saco"
+      }
+    },
+    "position": {
+      "x": 179,
+      "y": 142
+    }
+  },
+  {
+    "id": 6,
+    "text": "Recuperas un poco de tranquilidad y comienzas a tener mas bien curiosidad sobre aquel panorama futurista y lúgubre que se presenta. Decides investigar y tocar cosas interesantes que encuentras",
+    "options": {
+      "option": [
+        {
+          "question": "Estos robots parecen del tipo no amigable, menos mal que no funcionan",
+          "nextId": 8
+        },
+        {
+          "question": "¡Que extraña consola! Veré si encuentro alguna información en ella...",
+          "nextId": 9
+        }
+      ]
+    },
+    "position": {
+      "x": 274,
+      "y": 136
+    }
+  },
+  {
+    "id": 7,
+    "text": "Abres la puerta al fondo del pasillo, resulta ser un rudimentario y oxidado elevador y esta abriendo las puertas; del elevador oscuro y sin iluminación alguna emerge una especie de humanoide de uso 300kg armado con una suerte de arma capaz de disparar rayos deshidratadores",
+    "options": {
+      "option": [
+        {
+          "question": "10",
+          "nextId": 10
+        },
+        {
+          "question": "¡Ah! me dió un calambre...",
+          "nextId": 12
+        },
+        {
+          "question": "Das un paso adelante",
+          "nextId": 13
+        }
+      ]
+    },
+    "position": {
+      "x": 360,
+      "y": 133
+    }
+  },
+  {
+    "id": 8,
+    "text": "Pateas accidentalmente los restos de una especie de robot el cual mantenía poca carga de batería en su sistema. Activando así una alerta que llama a otros robots asesinos, armados con tenazas afiladas",
+    "options": {
+      "option": [
+        {
+          "question": "Ves una aperturas en la pared ¡Quizá pueda escapar por ahí!",
+          "nextId": 10
+        },
+        {
+          "question": "Volteas hacia atrás mientras corres, ¡Ahí vienen, son muy rápidos!",
+          "nextId": 11
+        }
+      ]
+    },
+    "position": {
+      "x": 129,
+      "y": 204
+    }
+  },
+  {
+    "id": 9,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Al estar de curioso tocas una consola cargada de electricidad de gran potencia que te deja tostado en un instante"
+      }
+    },
+    "position": {
+      "x": 235,
+      "y": 207
+    }
+  },
+  {
+    "id": 10,
+    "text": "Corres por tu vida pasando por una de las puertas, ves lo que parecen tomas de aire, brincas por una de ellas para escapar",
+    "options": {
+      "option": [
+        {
+          "question": "Cierras los ojos ",
+          "nextId": 0
+        },
+        {
+          "question": "14",
+          "nextId": 14
+        },
+        {
+          "question": "veamos si quepo",
+          "nextId": 15
+        },
+        {
+          "question": "oigo agua",
+          "nextId": 16
+        }
+      ]
+    },
+    "position": {
+      "x": 139,
+      "y": 300
+    }
+  },
+  {
+    "id": 11,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Los robots son mas rápidos que tu, sumado a esto te tropiezas  con cables en el suelo,los robots te capturan"
+      }
+    },
+    "position": {
+      "x": 221,
+      "y": 300
+    }
+  },
+  {
+    "id": 12,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Eres alcanzado por un proyectil del arma deshidratante del humanoide de gran tonelaje"
+      }
+    },
+    "position": {
+      "x": 333,
+      "y": 299
+    }
+  },
+  {
+    "id": 13,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Pisas una trampa que abre el suelo bajo tus pies mandándote así al precipicio"
+      }
+    },
+    "position": {
+      "x": 440,
+      "y": 297
+    }
+  },
+  {
+    "id": 14,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Encuentras una especie de aparato transportador en el cual entras. Al principio no funciona bien, pero lo solucionas con un golpe a al caja de control de la maquina. Recuperas la conciencia y despiertas en el suelo de tu baño"
+      }
+    },
+    "position": {
+      "x": 33,
+      "y": 374
+    }
+  },
+  {
+    "id": 15,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Te atoras y eres presa de tus perseguidores"
+      }
+    },
+    "position": {
+      "x": 145,
+      "y": 374
+    }
+  },
+  {
+    "id": 16,
+    "options": {
+      "finished": {
+        "finish": true,
+        "becomeFinish": "Caes a un foso lleno de aliens hambrientos"
+      }
+    },
+    "position": {
+      "x": 253,
+      "y": 376
+    }
+  }
+]
