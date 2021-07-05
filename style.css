@@ -4,9 +4,42 @@ body{
   background-color: #FAFAFA;
   font-family: 'Nunito', sans-serif;
 }
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box p{
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 5px;
+  box-shadow: #63636333 0px 2px 8px 0px;
+  animation: text 4s infinite ease-out;
+}
+@keyframes text {
+  0% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: #00d9ff;
+  }
+}
 .image{
   position: relative;
   display: inline-block;
+  max-height: 0;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: opacity .4s ease-out, transform .4s ease-out, max-height .4s ease-out;
+}
+.image_active{
+  opacity: 1;
+  transform: scaleY(100%);
+  max-height: 400px;
 }
 .imgStep{
   position: absolute;

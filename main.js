@@ -25,6 +25,16 @@ const imgStep = document.querySelector('.imgStep')
 
 let state = 0
 
+function possiblePaths() {
+  const path = document.querySelector('.box p')
+  const image = document.querySelector('.image')
+  path.addEventListener('click', () => {
+    image.classList.toggle('image_active')
+  })
+}
+possiblePaths()
+
+
 function restart() {
   const restart = document.querySelector('.restart')
   restart.addEventListener('click', () => {
